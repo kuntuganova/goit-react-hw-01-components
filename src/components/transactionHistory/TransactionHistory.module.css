@@ -6,6 +6,7 @@
 .headingColumn {
     font-size: 0.05rem;
     text-align: center;
+    border-radius: 50%;
 }
 
 .headingRow {
@@ -18,11 +19,11 @@
     text-align: center;
 }
 
-.headingColumn:first-child {
+.headingRow:first-child {
     border-radius: 0.5rem 0 0 0;
 }
 
-.headingColumn:last-child {
+.headingRow:last-child {
     border-radius: 0 0.5rem 0 0;
 }
 
