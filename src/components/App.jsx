@@ -1,5 +1,7 @@
-import { Profile } from "components/profile/Profile";
+import { Profile } from "./profile/Profile";
 import user from "./profile/user.json";
+import { Statistics } from "./statistics/Statistics";
+import data from "./statistics/data.json";
 
 export default function App({children}) {
   return (
@@ -24,9 +26,8 @@ export default function App({children}) {
         views={user.stats.views}
       
       />
-      {/* <Statistics title="Upload stats" stats={data} />
-      <Statistics stats={data} />
-      <FriendList friends={friends} />
+      <Statistics title="Upload stats" stats={data} />
+      {/* <FriendList friends={friends} />
       <TransactionHistory items={transactions} /> */}
     </div>
   )
